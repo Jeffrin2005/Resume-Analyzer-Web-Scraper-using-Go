@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Analyzer Pro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .container {
+            max-width: 900px;
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: none;
+        }
+        .card-body {
+            padding: 3rem;
+        }
+        .btn-primary {
+            background-color: #4361ee;
+            border-color: #4361ee;
+            padding: 10px 25px;
+            font-weight: 600;
+            border-radius: 30px;
+        }
+        .btn-outline-primary {
+            color: #4361ee;
+            border-color: #4361ee;
+            padding: 10px 25px;
+            font-weight: 600;
+            border-radius: 30px;
+        }
+        .btn-primary:hover, .btn-outline-primary:hover {
+            background-color: #3f37c9;
+            border-color: #3f37c9;
+        }
+        .app-icon {
+            font-size: 3rem;
+            color: #4361ee;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            color: #212529;
+        }
+        .lead {
+            color: #6c757d;
+            margin-bottom: 2rem;
+        }
+        .version-badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .version-badge.new {
+            background-color: #4cc9f0;
+            color: white;
+        }
+        .version-badge.legacy {
+            background-color: #f8f9fa;
+            color: #6c757d;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body text-center">
+                <i class="bi bi-file-earmark-person app-icon"></i>
+                <h1>Resume Analyzer Pro</h1>
+                <p class="lead">Advanced resume analysis powered by AI technology</p>
+                
+                <div class="row mt-5">
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <span class="version-badge new">NEW</span>
+                                <h3>Enhanced Version</h3>
+                                <p>Experience our new AI-powered resume analyzer with advanced features:</p>
+                                <ul class="text-start">
+                                    <li>User accounts & secure storage</li>
+                                    <li>Skills & keyword extraction</li>
+                                    <li>Education & experience analysis</li>
+                                    <li>Data visualization & insights</li>
+                                </ul>
+                                <a href="/app" class="btn btn-primary mt-3">Launch Enhanced App</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <span class="version-badge legacy">LEGACY</span>
+                                <h3>Classic Version</h3>
+                                <p>Our original resume text extractor with basic functionality:</p>
+                                <ul class="text-start">
+                                    <li>Simple PDF text extraction</li>
+                                    <li>No account required</li>
+                                    <li>Quick resume summary</li>
+                                    <li>Easy to use interface</li>
+                                </ul>
+                                <a href="/form.html" class="btn btn-outline-primary mt-3">Use Classic App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            &copy; 2025 Resume Analyzer Pro. All rights reserved.
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
